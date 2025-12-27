@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Personnel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Section Home -->
+    <section id="home">
+        <div class="container">
+            <h1>Bienvenue sur mon Portfolio</h1>
+            <p>Développeur Web & Designer Créatif</p>
+            <p>Passionné par la création de solutions web innovantes</p>
+        </div>
+    </section>
+
+    <!-- Section About -->
+    <section id="about">
+        <div class="container">
+            <div>
+                <img src="https://via.placeholder.com/300" alt="Photo de profil">
+            </div>
+            <div>
+                <h2>À propos de moi</h2>
+                <p>
+                    Je suis un développeur web passionné avec plusieurs années d'expérience dans la création
+                    d'applications web modernes et réactives. Mon expertise couvre le développement front-end
+                    et back-end, ainsi que la conception d'interfaces utilisateur intuitives.
+                </p>
+                <p>
+                    J'aime transformer des idées complexes en solutions élégantes et fonctionnelles. Mon approche
+                    combine créativité, attention aux détails et une solide compréhension des meilleures pratiques
+                    du développement web.
+                </p>
+                <p>
+                    En dehors du code, j'aime explorer de nouvelles technologies, contribuer à des projets open source
+                    et partager mes connaissances avec la communauté des développeurs.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Portfolio -->
+    <section id="portfolio">
+        <div class="container">
+            <h2>Mon Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/400x200" alt="Projet 1">
+                    <div class="portfolio-item-content">
+                        <h3>Projet Web E-commerce</h3>
+                        <p>Une plateforme e-commerce complète avec gestion de panier, paiement et administration.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/400x200" alt="Projet 2">
+                    <div class="portfolio-item-content">
+                        <h3>Application Mobile</h3>
+                        <p>Application mobile responsive pour la gestion de tâches avec synchronisation cloud.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/400x200" alt="Projet 3">
+                    <div class="portfolio-item-content">
+                        <h3>Site Web Portfolio</h3>
+                        <p>Site web portfolio moderne et élégant avec animations fluides et design responsive.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/400x200" alt="Projet 4">
+                    <div class="portfolio-item-content">
+                        <h3>Dashboard Analytics</h3>
+                        <p>Tableau de bord interactif pour visualisation de données avec graphiques en temps réel.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/400x200" alt="Projet 5">
+                    <div class="portfolio-item-content">
+                        <h3>API RESTful</h3>
+                        <p>API REST complète avec authentification, documentation et tests automatisés.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/400x200" alt="Projet 6">
+                    <div class="portfolio-item-content">
+                        <h3>Landing Page</h3>
+                        <p>Page d'atterrissage optimisée pour conversions avec A/B testing intégré.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contactez-moi</h2>
+            <form class="contact-form" action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Nom</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Sujet</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit">Envoyer le message</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
